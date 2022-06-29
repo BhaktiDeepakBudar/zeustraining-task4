@@ -1,0 +1,473 @@
+header {
+    top: 0px;
+    left: 0px;
+    width: 1024px;
+    height: 56px;
+    background: transparent url('logo_header.svg') 24px 10px no-repeat padding-box;
+    background-size: 134px 36px;
+    mix-blend-mode: overlay;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    top: 21px;
+    left: 63px;
+    width: 95px;
+    height: 18px;
+    box-shadow: -2px 4px 4px #0000003D;
+    opacity: 1;
+}
+
+.container {
+    top: 0px;
+    left: 0px;
+    width: 1024px;
+    height: 798px;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+footer {
+    top: 758px;
+    left: 0px;
+    width: 1024px;
+    height: 40px;
+    background: #E0E1E1 url('logo_footer.svg') 259px 8px no-repeat padding-box;
+    background-size: 90px 24px;
+    opacity: 1;
+}
+
+.container-footer {
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 365px;
+    width: 0px;
+    height: 24px;
+    border: 1px solid #0000001F;
+    opacity: 1;
+}
+
+.copyright {
+    float: left;
+    top: 771px;
+    margin-left: 381px;
+    height: 15px;
+    text-align: left;
+    font: 12px/16px Quicksand;
+    letter-spacing: 0px;
+    color: #616161;
+    opacity: 1;
+}
+
+.zeus {
+    padding-left: 8px;
+    float: left;
+    top: 771px;
+    left: 518px;
+    height: 15px;
+    text-align: left;
+    font: normal normal bold 12px/16px Quicksand;
+    letter-spacing: 0px;
+    color: #616161;
+    opacity: 1;
+}
+
+.rights {
+    padding-left: 11px;
+    float: left;
+    margin-top: 13px;
+    left: 660px;
+    width: 106px;
+    height: 15px;
+    text-align: left;
+    font: 12px/16px Quicksand;
+    letter-spacing: 0px;
+    color: #616161;
+    opacity: 1;
+}
+
+.inner-container {
+    position: relative;
+    top : 108px;
+    margin-left: 268px;
+    width: 488px;
+    height: 550px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+
+.border {
+    top: 108px;
+    left: 268px;
+    width: 488px;
+    height: 4px;
+    background: #3AC7EC 0% 0% no-repeat padding-box;
+    border-radius: 2px 2px 0px 0px;
+    opacity: 1;
+}
+
+.arrow img {
+    position: relative;
+    float: left;
+    top: 22px;
+    margin-left: 32px;
+    width: 17px;
+    height: 26px;
+    text-align: left;
+    font: normal normal normal 26px/28px Material-Design-Iconic-Font;
+    letter-spacing: 0.65px;
+    color: #1F7A54;
+    opacity: 1;
+}
+
+.arrow h1 {
+    position: relative;
+    top: 20px;
+    margin-left: 126px;
+    width: 236px;
+    height: 30px;
+    text-align: center;
+    font: 24px/28px Quicksand;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+.radio-option .radio-button-on {
+    position: relative;
+    float: left;
+    top: 34px;
+    left: 32px;
+    width: 20px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 24px/17px Material-Design-Iconic-Font;
+    letter-spacing: 0px;
+    color: #1F7A54;
+    opacity: 1;
+}
+
+.radio-option .district {
+    position: relative;
+    float: left;
+    top: 22px;
+    left: 60px;
+    width: 53px;
+    height: 20px;
+    text-align: left;
+    font: normal normal medium 16px/20px Quicksand;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+.radio-option .radio-button-off {
+    position: relative;
+    float: left;
+    top: 34px;
+    left: 145px;
+    width: 20px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 24px/17px Material-Design-Iconic-Font;
+    letter-spacing: 0px;
+    color: #1F7A54;
+    opacity: 1;
+}
+
+.radio-option .school {
+    position: relative;
+    float: left;
+    top: 22px;
+    left: 173px;
+    width: 148px;
+    height: 20px;
+    text-align: left;
+    font: normal normal medium 16px/20px Quicksand;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+.state {
+    position: relative;
+    top: 25px;
+    left: 0px;
+    width: 424px;
+    height: 45px;
+    opacity: 1;
+}
+
+.state .state-label {
+    position: relative;
+    top: 0px;
+    left: 32px;
+    width: 34px;
+    height: 15px;
+    text-align: left;
+    font: 12px/16px Quicksand;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.alabama {
+    position: relative;
+    top: 20px;
+    left: 32px;
+    width: 68px;
+    height: 20px;
+    text-align: left;
+    font: 16px/20px Quicksand;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+.down-arrow-state {
+    position: relative;
+    float: left;
+    top: 3px;
+    left: 435px;
+    opacity: 1;
+}
+
+.under-state {
+    position: relative;
+    left: 32px;
+    width: 423px;
+    height: 1px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.12;
+}
+
+.district {
+    position: relative;
+    top: 36px;
+    width: 424px;
+    height: 45px;
+    opacity: 1;
+}
+
+.district .district-label {
+    position: relative;
+    top: 10px;
+    left: 32px;
+    width: 44px;
+    height: 15px;
+    text-align: left;
+    font: 12px/16px Quicksand;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.alabama-district {
+    position: relative;
+    float: left;
+    top: 20px;
+    left: 8px;
+    height: 20px;
+    text-align: left;
+    font: 16px/20px Quicksand;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+.down-arrow-district {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 232px;
+    opacity: 1;
+}
+
+.under-district {
+    position: relative;
+    top: 4px;
+    left: 32px;
+    width: 423px;
+    height: 1px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.12;
+}
+
+.username {
+    position: relative;
+    top: 86px;
+    left: 32px;
+    width: 424px;
+    height: 48px;
+    opacity: 1;
+}
+
+.un {
+    position: relative;
+    width: 153px;
+    height: 20px;
+    text-align: left;
+    font: 16px/20px Quicksand;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.un-line {
+    position: relative;
+    top: 4px;
+    left: 0px;
+    width: 422px;
+    height: 1px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.12;
+}
+
+.forgot-un {
+    position: relative;
+    left: 282px;
+    width: 142px;
+    height: 18px;
+    text-align: right;
+    font: 14px/18px Quicksand;
+    letter-spacing: 0px;
+    color: #1F7A54;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.password {
+    position: relative;
+    top: 56px;
+    width: 424px;
+    height: 48px;
+    opacity: 1;
+}
+
+.pw {
+    position: relative;
+    float: left;
+    top: 56px;
+    left: 32px;
+    width: 153px;
+    height: 20px;
+    text-align: left;
+    font: 16px/20px Quicksand;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.preview {
+    position: relative;
+    top: 75px;
+    left: 280px;
+    width: 22px;
+    height: 15px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.pw-line {
+    position: relative;
+    top: 40px;
+    left: 32px;
+    width: 422px;
+    height: 1px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.12;
+}
+
+.forgot-pw {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    height: 18px;
+    text-align: right;
+    font: 14px/18px Quicksand;
+    letter-spacing: 0px;
+    color: #1F7A54;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.check-box {
+    position: relative;
+    top: 138px;
+    right: 120px;
+    width: 18px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 24px/17px Material-Design-Iconic-Font;
+    letter-spacing: 0px;
+    color: #1F7A54;
+    opacity: 1;
+}
+
+.remember {
+    position: relative;
+    top: 95px;
+    left: 55px;
+    width: 111px;
+    height: 20px;
+    text-align: left;
+    font: 16px/20px Quicksand;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+.button {
+    position: relative;
+    top: 120px;
+    left: 136px;
+    width: 216px;
+    height: 40px;
+    background: #3FD28B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003D;
+    text-align: center;
+    font: 14px/18px Quicksand;
+    letter-spacing: 0px;
+    color: #1F2834;
+    opacity: 1;
+}
+
+.about {
+    position: relative;
+    top: 160px;
+    left: 447px;
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    font: 14px/18px Quicksand;
+    letter-spacing: 0px;
+    color: #1F7A54;
+    opacity: 1;
+}
+
+.contain {
+    position: relative;
+    top: 128px;
+    left: 495px;
+    width: 0px;
+    height: 18px;
+    border: 1px solid #0000001F;
+    opacity: 1;
+}
+
+.contact {
+    position: relative;
+    top: 94px;
+    left: 505px;
+    width: 72px;
+    height: 18px;
+    text-align: center;
+    font: normal normal medium 14px/18px Quicksand;
+    letter-spacing: 0px;
+    color: #1F7A54;
+    opacity: 1;
+}
