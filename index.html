@@ -7,67 +7,95 @@
     <link rel="stylesheet" href="style.css">
     <title>Task 4</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav>
+            <img src="logo_header.svg" alt="header_logo">
+        </nav>
+    </header>
     <div class="container">
         <div class="inner-container">
+            <form action="#" id="login-form">
             <div class="border"></div>
             <div class="arrow">
-                <img src="back.svg" alt="back-arrow">
-                <h1>Log in with Quantum</h1>
+                <a href="#">
+                    <img src="back.svg" alt="back-arrow">
+                </a>
+                Log in with Quantum
             </div>
             <div class="radio-option">
-                <img src="radio-button-on.svg" alt="radio-button-on" class="radio-button-on">
-                <p class="district">District</p>
-                <img src="radio-button-off.svg" alt="radio-button-off" class="radio-button-off">
-                <p class="school">Independent school</p>
+                <input type="radio" name="school" id="district">
+                <label for="district">District</label>
+                <input type="radio" name="school" id="independent">
+                <label for="district">Independent school</label>
             </div>
             <div class="state">
-                <p class="state-label">State*</p>
-                <p class="alabama">Alabama</p>
-                <img src="arrow-down.svg" alt="drop-down-arrow" class="down-arrow-state">
-                <hr class="under-state">
+                <label for="state">
+                    <span class="state-label">
+                        State*
+                        <select name="state-name" id="state-name">
+                            <option value="none"></option>
+                            <option value="Alabama">Alabama</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                        </select>
+                        <img src="arrow-down.svg" alt="down-arrow">
+                    </span>
+                </label>
             </div>
             <div class="district">
-                <p class="district-label">District*</p>
-                <p class="alabama-district">Alabama School District</p>
-                <img src="arrow-down.svg" alt="drop-down-arrow" class="down-arrow-district">
-                <hr class="under-district">
+                <label for="district">
+                    <span class="district-label">
+                        District*
+                        <select name="district-name" id="district-name">
+                            <option value="none"></option>
+                            <option value="Alabama">Alabama School District</option>
+                            <option value="Mumbai">Mumbai</option>
+                        </select>
+                        <img src="arrow-down.svg" alt="down-arrow">
+                    </span>
+                </label>
             </div>
             <div class="username">
-                <p class="un">Username/Email ID*</p>
-                <hr class="un-line">
-                <p class="forgot-un">FORGOT USERNAME?</p>
+                <input type="text" name="username" id="username" placeholder="Username/Email ID*">
+                <p class="forgot-username">
+                    <a href="#">FORGOT USERNAME?</a>
+                </p>
             </div>
             <div class="password">
-                <p class="pw">Password*</p>
-                <img src="preview.svg" alt="preview" class="preview">
-                <hr class="pw-line">
-                <p class="forgot-pw">FORGOT PASSWORD?</p>
+                <input type="password" name="password" id="password" placeholder="Password*">
+                <img src="preview.svg" alt="preview" onclick="show()">
+                <p class="forgot-password">
+                    <a href="#">FORGOT PASSWORD?</a>
+                </p>
             </div>
-            <img src="checkbox-checked.svg" alt="" class="check-box">
-            <p class="remember">Remember Me</p>
-            <input type="button" value="LOG IN" class="button">
-        </div>
-        <div class="nav">
-            <p class="about">About</p>
-            <div class="contain"></div>
-            <p class="contact">Contact Us</p>
+            <div class="remember">
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">Remember Me</label>
+            </div>
+            <div class="login">
+                <button type="submit" onclick="login()">LOG IN</button>
+            </div>
+            </form>
         </div>
     </div>
     <footer>
-        <div class="container-footer"></div>
-        <div class="copyright">
-            <p>Copyright © 2020-2021</p>
+        <div class="nav">
+            <span class="about">
+                <a href="#">About</a>
+            </span>
+            <span class="contact">
+                <a href="#">Contact Us</a>
+            </span>
         </div>
-        <div class="zeus">
-            <p>Zeus Systems Pvt. Ltd.</p>
-        </div>
-        <div class="rights">
-            <p">All rights reserved.</p>
+        <div class="container-footer">
+            <img src="logo_footer.svg" alt="footer_logo">
+            <span class="copyright">Copyright © 2020-2021</span>
+            <span class="zeus">Zeus Systems Pvt. Ltd.</span>
+            <span class="rights">All rights reserved.</span>
         </div>
     </footer>
 </body>
