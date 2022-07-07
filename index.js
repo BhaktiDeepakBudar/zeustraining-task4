@@ -54,6 +54,7 @@ function username()
         alert("Please enter username");
         return false;
     }
+    return true;
 }
 
 function password()
