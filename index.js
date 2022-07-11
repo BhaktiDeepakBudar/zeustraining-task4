@@ -81,6 +81,12 @@ function login()
     if(radio() && state() && district() && password() && username())
     {
         alert("Login successful");
-        document.getElementById('login-form').reset();
+        document.getElementById("district").checked = false;
+        document.getElementById("independent").checked = false;
+        document.getElementById("state-name").value = 'none';
+        document.getElementById("district-name").value = 'none';
+        document.getElementById("username").value = '';
+        document.getElementById("password").value = '';
+        document.getElementById("remember").checked = false;
     }
 }
