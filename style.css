@@ -54,7 +54,17 @@ header nav img {
 
 .arrow a img {
     height: 26px;
-    margin-inline-start: -5.8rem;
+}
+
+.back-arrow {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 10%;
+}
+
+.log-in {
+    flex-basis: 90%;
+    margin-left: 50px;
 }
 
 .radio-option {
@@ -106,14 +116,14 @@ header nav img {
 .state-label img {
     position: absolute;
     top: 10px;
-    left: 400px;
+    right: 0px;
     cursor: pointer;
 }
 
 .district-label img {
     position: absolute;
     top: 10px;
-    left: 400px;
+    right: 0px;
     cursor: pointer;
 }
 
@@ -150,7 +160,7 @@ header nav img {
 .password img {
     position: absolute;
     top: -1.5px;
-    left: 400px;
+    right: 0px;
     cursor: pointer;
 }
 
